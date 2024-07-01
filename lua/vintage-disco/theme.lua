@@ -50,7 +50,7 @@ function M.setup()
     SignColumnSB = { fg = c.base0 }, -- column where |signs| are displayed
     Substitute = { fg = c.base04, bg = c.red500 }, -- |:substitute| replacement text highlighting
     LineNr = { fg = c.base03, bg = options.transparent and c.none or c.bg }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
-    CursorLineNr = { fg = c.cyan100, sp = c.base1 }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
+    CursorLineNr = { fg = c.cyan300, sp = c.base1 }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
     MatchParen = { fg = c.red100, bg = c.red500, bold = true }, -- The character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
     ModeMsg = { fg = c.blue500 }, -- 'showmode' message (e.g., "-- INSERT -- ")
     MsgArea = { fg = c.base01 }, -- Area for messages and cmdline
