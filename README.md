@@ -2,7 +2,7 @@
 
 One of the [Solarized](https://ethanschoonover.com/solarized/)-inspired dark theme for [Neovim](https://github.com/neovim/neovim) written in [Lua](https://www.lua.org).
 
-![solarized-osaka_screenshot01](https://github.com/folke/tokyonight.nvim/assets/1332805/12d424f8-6967-482b-8357-124b06573f18)
+![vintage-disco_screenshot01](https://github.com/folke/tokyonight.nvim/assets/1332805/12d424f8-6967-482b-8357-124b06573f18)
 
 ## 🎨 More Colors
 
@@ -15,7 +15,7 @@ The theme brightens the base colors slightly, creating a visually appealing and 
 
 Here is what the improved color palette looks like:
 
-![Color Palette](https://github.com/craftzdog/solarized-osaka.nvim/assets/1332805/e26b00bc-8331-4b42-abd6-706dce72bcf1)
+![Color Palette](https://github.com/craftzdog/vintage-disco.nvim/assets/1332805/e26b00bc-8331-4b42-abd6-706dce72bcf1)
 
 [A Figma design is available here](https://www.figma.com/file/6Wp5Puqtz7hbMJgYqOOJzb/Solarized-Osaka?type=design&node-id=0%3A1&mode=design&t=vEaGptGFJOLAafmB-1).
 
@@ -39,7 +39,7 @@ Install the theme with your preferred package manager, such as
 
 ```lua
 {
-  "craftzdog/solarized-osaka.nvim",
+  "craftzdog/vintage-disco.nvim",
   lazy = false,
   priority = 1000,
   opts = {},
@@ -51,24 +51,24 @@ Install the theme with your preferred package manager, such as
 ### Vim Script
 
 ```vim
-colorscheme solarized-osaka
+colorscheme vintage-disco
 ```
 
 ### [Lua](https://www.lua.org)
 
 ```lua
-vim.cmd[[colorscheme solarized-osaka]]
+vim.cmd[[colorscheme vintage-disco]]
 ```
 
 ## ⚙️ Configuration
 
-> ❗️ Set the configuration **BEFORE** loading the color scheme with `colorscheme solarized-osaka`.
+> ❗️ Set the configuration **BEFORE** loading the color scheme with `colorscheme vintage-disco`.
 
-[Solarized Osaka](https://github.com/craftzdog/solarized-osaka.nvim) uses the default options,
+[Solarized Osaka](https://github.com/craftzdog/vintage-disco.nvim) uses the default options,
 unless `setup` is explicitly called.
 
 ```lua
-require("solarized-osaka").setup({
+require("vintage-disco").setup({
   -- your configuration comes here
   -- or leave it empty to use the default settings
   transparent = true, -- Enable this to disable setting the background color
@@ -114,12 +114,12 @@ How the highlight groups are calculated:
    groups.
 
 For default values of `colors` and `highlights`, please consult the
-[colors.lua](lua/solarized-osaka/colors.lua) file.
+[colors.lua](lua/vintage-disco/colors.lua) file.
 
 ### Settings and color alteration demonstration
 
 ```lua
-require("solarized-osaka").setup({
+require("vintage-disco").setup({
   -- disable italic for functions
   styles = {
     functions = {}
@@ -136,7 +136,7 @@ require("solarized-osaka").setup({
 ### [Borderless Telescope](https://github.com/nvim-telescope/telescope.nvim/wiki/Gallery#borderless) example
 
 ```lua
-require("solarized-osaka").setup({
+require("vintage-disco").setup({
   on_highlights = function(hl, c)
     local prompt = "#2d3149"
     hl.TelescopeNormal = {

@@ -8,7 +8,7 @@ body:
       label: Did you check the docs?
       description: Make sure you read all the docs before submitting a feature request
       options:
-        - label: I have read all the solarized-osaka.nvim docs
+        - label: I have read all the vintage-disco.nvim docs
           required: true
   - type: textarea
     validations:

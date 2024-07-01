@@ -1,5 +1,5 @@
-local colors = require("solarized-osaka.colors").setup({ transform = true })
-local config = require("solarized-osaka.config").options
+local colors = require("vintage-disco.colors").setup({ transform = true })
+local config = require("vintage-disco.config").options
 
 local solarized_osaka = {}
 

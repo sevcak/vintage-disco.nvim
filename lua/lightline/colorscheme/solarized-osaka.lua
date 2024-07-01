@@ -1,4 +1,4 @@
-local colors = require("solarized-osaka.colors").setup({ transform = true })
+local colors = require("vintage-disco.colors").setup({ transform = true })
 
 local solarized_osaka = {}
 
