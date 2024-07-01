@@ -9,7 +9,7 @@ M.default = {
   none = "NONE",
 
   base04 = hsl(192, 100, 5),
-  base03 = hsl(192, 100, 11),
+  base03 = hsl(24, 25, 51),
   base02 = hsl(192, 81, 14),
   base01 = hsl(194, 14, 40),
   base00 = hsl(196, 13, 45),
