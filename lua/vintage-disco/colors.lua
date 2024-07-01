@@ -11,7 +11,7 @@ M.default = {
   base04 = hsl(192, 100, 5),
   base03 = hsl(24, 25, 51),
   base02 = hsl(192, 81, 14),
-  base01 = hsl(194, 14, 40),
+  base01 = hsl(25, 43, 30),
   base00 = hsl(43, 87, 94),
   -- base0 = hsl( 186, 8, 55 ),
   base0 = hsl(43, 87, 94),
@@ -71,7 +71,7 @@ M.default = {
 
   bg = hsl(22, 32, 30),
   bg_highlight = hsl(14, 29, 20),
-  fg = hsl(0, 0, 100),
+  fg = hsl(43, 87, 94),
 }
 
 ---@return ColorScheme
