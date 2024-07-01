@@ -107,7 +107,7 @@ function M.setup()
     Identifier = { fg = c.blue100, style = options.styles.variables }, -- (preferred) any variable name
     Function = { fg = c.blue100, style = options.styles.functions }, -- function name (also: methods for classes)
 
-    Statement = { fg = c.green }, -- (preferred) any statement
+    Statement = { fg = c.violet100 }, -- (preferred) any statement
     -- Conditional   = { }, --  if, then, else, endif, switch, etc.
     -- Repeat        = { }, --   for, do, while, etc.
     -- Label         = { }, --    case, default, etc.
@@ -265,12 +265,12 @@ function M.setup()
     ["@operator"] = { fg = c.green500 }, -- For any operator: `+`, but also `->` and `*` in C.
 
     --- Punctuation
-    ["@punctuation.delimiter"] = { fg = c.green500 }, -- For delimiters ie: `.`
-    ["@punctuation.bracket"] = { fg = c.orange500 }, -- For brackets and parens.
-    ["@punctuation.special"] = { fg = c.orange500 }, -- For special punctutation that does not fall in the catagories before.
-    ["@punctuation.special.markdown"] = { fg = c.orange500, bold = true },
+    ["@punctuation.delimiter"] = { fg = c.fg }, -- For delimiters ie: `.`
+    ["@punctuation.bracket"] = { fg = c.fg }, -- For brackets and parens.
+    ["@punctuation.special"] = { fg = c.fg }, -- For special punctutation that does not fall in the catagories before.
+    ["@punctuation.special.markdown"] = { fg = c.fg, bold = true },
     ["@markup.list"] = { fg = c.blue500 }, -- For special punctutation that does not fall in the catagories before.
-    ["@markup.list.markdown"] = { fg = c.orange500, bold = true },
+    ["@markup.list.markdown"] = { fg = c.fg, bold = true },
 
     --- Literals
     ["@string.documentation"] = { fg = c.cyan500 },
