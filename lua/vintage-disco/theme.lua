@@ -25,19 +25,19 @@ function M.setup()
   local c = theme.colors
 
   theme.highlights = {
-    Comment = { fg = c.base01, style = options.styles.comments }, -- any comment
+    Comment = { fg = c.base03, style = options.styles.comments }, -- any comment
     ColorColumn = { bg = c.base02 }, -- used for the columns set with 'colorcolumn'
-    Conceal = { fg = c.blue500 }, -- placeholder characters substituted for concealed text (see 'conceallevel')
+    Conceal = { fg = c.blue }, -- placeholder characters substituted for concealed text (see 'conceallevel')
     Cursor = { fg = c.base03, bg = c.base0 }, -- character under the cursor
     lCursor = { fg = c.base03, bg = c.base00 }, -- the character under the cursor when |language-mapping| is used (see 'guicursor')
     CursorIM = { fg = c.base03, bg = c.base0 }, -- like Cursor, but used when in IME mode |CursorIM|
     CursorColumn = { bg = c.base02 }, -- Screen-column at the cursor, when 'cursorcolumn' is set.
     CursorLine = { bg = c.base03, sp = c.base1 }, -- Screen-line at the cursor, when 'cursorline' is set.  Low-priority if foreground (ctermfg OR guifg) is not set.
-    Directory = { fg = c.blue500 }, -- directory names (and other special names in listings)
+    Directory = { fg = c.blue }, -- directory names (and other special names in listings)
     DiffAdd = { fg = c.green500, bg = c.base02, bold = true }, -- diff mode: Added line |diff.txt|
     DiffChange = { fg = c.yellow500, bg = c.base02, bold = true }, -- diff mode: Changed line |diff.txt|
     DiffDelete = { fg = c.red500, bg = c.base02, bold = true }, -- diff mode: Deleted line |diff.txt|
-    DiffText = { fg = c.blue500, bg = c.base02, bold = true }, -- diff mode: Changed text within a changed line |diff.txt|
+    DiffText = { fg = c.blue, bg = c.base02, bold = true }, -- diff mode: Changed text within a changed line |diff.txt|
     EndOfBuffer = { fg = c.base01 }, -- filler lines (~) after the end of the buffer.  By default, this is highlighted like |hl-NonText|.
     -- TermCursor  = { }, -- cursor in a focused terminal
     -- TermCursorNC= { }, -- cursor in an unfocused terminal
@@ -83,7 +83,7 @@ function M.setup()
     TabLineFill = { fg = c.base0, bg = c.base02 }, -- tab pages line, where there are no labels
     TabLineSel = { fg = c.yellow500, bg = c.bg }, -- tab pages line, active tab page label
     Title = { fg = c.orange500, bold = true }, -- titles for output from ":set all", ":autocmd" etc.
-    Visual = { bg = c.base02, reverse = true }, -- Visual mode selection
+    Visual = { bg = c.base02, reverse = false }, -- Visual mode selection
     VisualNOS = { bg = c.base03, reverse = true }, -- Visual mode selection when vim is "Not Owning the Selection".
     WarningMsg = { fg = c.orange500, bold = true }, -- warning messages
     Whitespace = { fg = c.base01 }, -- "nbsp", "space", "tab" and "trail" in 'listchars'
@@ -104,15 +104,15 @@ function M.setup()
     -- Boolean       = { }, --  a boolean constant: TRUE, false
     -- Float         = { }, --    a floating point constant: 2.3e10
 
-    Identifier = { fg = c.blue500, style = options.styles.variables }, -- (preferred) any variable name
-    Function = { fg = c.blue500, style = options.styles.functions }, -- function name (also: methods for classes)
+    Identifier = { fg = c.blue100, style = options.styles.variables }, -- (preferred) any variable name
+    Function = { fg = c.blue100, style = options.styles.functions }, -- function name (also: methods for classes)
 
-    Statement = { fg = c.green500 }, -- (preferred) any statement
+    Statement = { fg = c.green }, -- (preferred) any statement
     -- Conditional   = { }, --  if, then, else, endif, switch, etc.
     -- Repeat        = { }, --   for, do, while, etc.
     -- Label         = { }, --    case, default, etc.
-    Operator = { fg = c.green500 }, -- "sizeof", "+", "*", etc.
-    Keyword = { fg = c.green500, style = options.styles.keywords }, --  any other keyword
+    Operator = { fg = c.green }, -- "sizeof", "+", "*", etc.
+    Keyword = { fg = c.green, style = options.styles.keywords }, --  any other keyword
     -- Exception     = { }, --  try, catch, throw
 
     PreProc = { fg = c.red500 }, -- (preferred) generic Preprocessor
