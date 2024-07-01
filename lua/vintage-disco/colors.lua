@@ -10,7 +10,7 @@ M.default = {
 
   base04 = hsl(192, 100, 5),
   base03 = hsl(24, 25, 51),
-  base02 = hsl(192, 81, 14),
+  base02 = hsl(29, 24, 64),
   base01 = hsl(25, 43, 30),
   base00 = hsl(43, 87, 94),
   -- base0 = hsl( 186, 8, 55 ),
@@ -59,7 +59,7 @@ M.default = {
   cyan = hsl(175, 75, 64),
   cyan100 = hsl(176, 100, 86),
   cyan300 = hsl(175, 85, 55),
-  cyan500 = hsl(175, 59, 40),
+  cyan500 = hsl(182, 54, 47),
   cyan700 = hsl(182, 59, 25),
   cyan900 = hsl(183, 58, 15),
   green = hsl(68, 100, 68),
