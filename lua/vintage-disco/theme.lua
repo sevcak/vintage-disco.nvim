@@ -316,8 +316,8 @@ function M.setup()
     ["@constructor.tsx"] = { fg = c.blue500 },
     ["@tag.delimiter.tsx"] = { fg = c.orange500 },
     ["@tag.tsx"] = { fg = c.yellow500 },
-    ["@keyword.return.tsx"] = { fg = c.green500, style = "italic" },
-    ["@keyword.tsx"] = { fg = c.green500, style = "italic" },
+    ["@keyword.return.tsx"] = { fg = c.green100, style = "italic" },
+    ["@keyword.tsx"] = { fg = c.green100, style = "italic" },
 
     -- typescript
     ["@variable.typescript"] = { fg = c.yellow500 },
@@ -330,7 +330,7 @@ function M.setup()
 
     -- javascriptreact
     ["@keyword.javascript"] = { fg = c.green500, style = "italic" },
-    ["@keyword.return.javascript"] = { fg = c.green500, style = "italic" },
+    ["@keyword.return.javascript"] = { fg = c.green100, style = "italic" },
     ["@tag.delimiter.javascript"] = { fg = c.orange500 },
     ["@tag.javascript"] = { fg = c.yellow500 },
     ["@variable.javascript"] = { fg = c.yellow500 },
