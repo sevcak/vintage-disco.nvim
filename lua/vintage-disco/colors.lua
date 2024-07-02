@@ -8,7 +8,7 @@ local M = {}
 M.default = {
   none = "NONE",
 
-  base04 = hsl(25, 33, 36),
+  base04 = hsl(25, 40, 32),
   base03 = hsl(24, 25, 51),
   base02 = hsl(29, 24, 64),
   base01 = hsl(25, 43, 30),
