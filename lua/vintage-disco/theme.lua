@@ -63,8 +63,8 @@ function M.setup()
     NormalFloat = { fg = c.base0, bg = c.bg_float }, -- Normal text in floating windows.
     FloatBorder = { fg = c.yellow700, bg = c.bg_float },
     FloatTitle = { fg = c.base2, bg = c.bg_float },
-    Pmenu = { fg = c.base0, bg = c.base02 }, -- Popup menu: normal item.
-    PmenuSel = { fg = c.base01, bg = c.base2, reverse = true }, -- Popup menu: selected item.
+    Pmenu = { fg = c.base0, bg = c.base04 }, -- Popup menu: normal item.
+    PmenuSel = { fg = c.base01, bg = c.base03, reverse = true }, -- Popup menu: selected item.
     PmenuSbar = { fg = c.base02, reverse = true }, -- Popup menu: scrollbar.
     PmenuThumb = { fg = c.base0, reverse = true }, -- Popup menu: Thumb of the scrollbar.
     Question = { fg = c.cyan500, bold = true }, -- |hit-enter| prompt and yes/no questions
@@ -82,8 +82,8 @@ function M.setup()
     TabLine = { fg = c.base0, bg = c.base02, sp = c.base0 }, -- tab pages line, not active tab page label
     TabLineFill = { fg = c.base0, bg = c.base02 }, -- tab pages line, where there are no labels
     TabLineSel = { fg = c.yellow500, bg = c.bg }, -- tab pages line, active tab page label
-    Title = { fg = c.orange500, bold = true }, -- titles for output from ":set all", ":autocmd" etc.
-    Visual = { bg = c.base02, reverse = false }, -- Visual mode selection
+    Title = { fg = c.orange300, bold = true }, -- titles for output from ":set all", ":autocmd" etc.
+    Visual = { bg = c.base04, reverse = false }, -- Visual mode selection
     VisualNOS = { bg = c.base03, reverse = true }, -- Visual mode selection when vim is "Not Owning the Selection".
     WarningMsg = { fg = c.orange500, bold = true }, -- warning messages
     Whitespace = { fg = c.base03 }, -- "nbsp", "space", "tab" and "trail" in 'listchars'
@@ -97,8 +97,8 @@ function M.setup()
     -- default,
     -- Uncomment and edit if you want more specific syntax highlighting.
 
-    Constant = { fg = c.cyan500 }, -- (preferred) any constant
-    String = { fg = c.cyan500 }, --   a string constant: "this is a string"
+    Constant = { fg = c.yellow100 }, -- (preferred) any constant
+    String = { fg = c.yellow100 }, --   a string constant: "this is a string"
     Character = { link = "Constant" }, --  a character constant: 'c', '\n'
     -- Number        = { }, --   a number constant: 234, 0xff
     -- Boolean       = { }, --  a boolean constant: TRUE, false
@@ -121,12 +121,12 @@ function M.setup()
     -- Macro         = { }, --    same as Define
     -- PreCondit     = { }, --  preprocessor #if, #else, #endif, etc.
 
-    Type = { fg = c.yellow300 }, -- (preferred) int, long, char, etc.
+    Type = { fg = c.violet100 }, -- (preferred) int, long, char, etc.
     -- StorageClass  = { }, -- static, register, volatile, etc.
     -- Structure     = { }, --  struct, union, enum, etc.
     -- Typedef       = { }, --  A typedef
 
-    Special = { fg = c.orange300 }, -- (preferred) any special symbol
+    Special = { fg = c.orange100 }, -- (preferred) any special symbol
     -- SpecialChar   = { }, --  special character in a constant
     -- Tag           = { }, --    you can use CTRL-] on this
     -- Delimiter     = { }, --  character that needs attention
@@ -173,9 +173,9 @@ function M.setup()
     -- These groups are for the native LSP client. Some other LSP clients may
     -- use these groups, or use their own. Consult your LSP client's
     -- documentation.
-    LspReferenceText = { bg = c.magenta900 }, -- used for highlighting "text" references
-    LspReferenceRead = { bg = c.magenta900 }, -- used for highlighting "read" references
-    LspReferenceWrite = { bg = c.magenta900 }, -- used for highlighting "write" references
+    LspReferenceText = { bg = c.cyan100 }, -- used for highlighting "text" references
+    LspReferenceRead = { bg = c.cyan100 }, -- used for highlighting "read" references
+    LspReferenceWrite = { bg = c.cyan100 }, -- used for highlighting "write" references
 
     DiagnosticError = { fg = c.error }, -- Used as the base highlight group. Other Diagnostic highlights link to this by default
     DiagnosticWarn = { fg = c.warning }, -- Used as the base highlight group. Other Diagnostic highlights link to this by default
