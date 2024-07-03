@@ -104,8 +104,8 @@ function M.setup()
     -- Boolean       = { }, --  a boolean constant: TRUE, false
     -- Float         = { }, --    a floating point constant: 2.3e10
 
-    Identifier = { fg = c.blue100, style = options.styles.variables }, -- (preferred) any variable name
-    Function = { fg = c.blue100, style = options.styles.functions }, -- function name (also: methods for classes)
+    Identifier = { fg = c.blue300, style = options.styles.variables }, -- (preferred) any variable name
+    Function = { fg = c.cyan100, style = options.styles.functions }, -- function name (also: methods for classes)
 
     Statement = { fg = c.violet100 }, -- (preferred) any statement
     -- Conditional   = { }, --  if, then, else, endif, switch, etc.
