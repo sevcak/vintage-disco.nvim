@@ -262,7 +262,7 @@ function M.setup()
     --- Misc
     -- TODO:
     -- ["@comment.documentation"] = { },
-    ["@operator"] = { fg = c.green500 }, -- For any operator: `+`, but also `->` and `*` in C.
+    ["@operator"] = { fg = c.violet }, -- For any operator: `+`, but also `->` and `*` in C.
 
     --- Punctuation
     ["@punctuation.delimiter"] = { fg = c.fg }, -- For delimiters ie: `.`
@@ -283,10 +283,10 @@ function M.setup()
     ["@variable.parameter.builtin"] = { fg = c.yellow300 }, -- For builtin parameters of a function, e.g. "..." or Smali's p[1-99]
 
     --- Keywords
-    ["@keyword"] = { fg = c.green500, style = options.styles.keywords }, -- For keywords that don't fall in previous categories.
-    ["@keyword.function"] = { fg = c.green500, style = options.styles.functions }, -- For keywords used to define a fuction.
+    ["@keyword"] = { fg = c.violet, style = options.styles.keywords }, -- For keywords that don't fall in previous categories.
+    ["@keyword.function"] = { fg = c.violet, style = options.styles.functions }, -- For keywords used to define a fuction.
 
-    ["@label"] = { fg = c.green500 }, -- For labels: `label:` in C and `:label:` in Lua.
+    ["@label"] = { fg = c.cyan500 }, -- For labels: `label:` in C and `:label:` in Lua.
 
     --- Types
     ["@type.builtin"] = { link = "Type" },
@@ -304,7 +304,7 @@ function M.setup()
     ["@markup.link"] = { fg = c.blue500, underline = true },
 
     ["@markup.list.unchecked"] = { fg = c.yellow500 }, -- For brackets and parens.
-    ["@markup.list.checked"] = { fg = c.green500 }, -- For brackets and parens.
+    ["@markup.list.checked"] = { fg = c.green300 }, -- For brackets and parens.
 
     ["@diff.plus"] = { link = "DiffAdd" },
     ["@diff.minus"] = { link = "DiffDelete" },
