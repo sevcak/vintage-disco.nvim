@@ -278,8 +278,8 @@ function M.setup()
     ["@string.escape"] = { fg = c.orange700 }, -- For escape characters within a string.
 
     --- Functions
-    ["@constructor"] = { fg = c.orange500 }, -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.
-    ["@variable.parameter"] = { fg = c.orange500 }, -- For parameters of a function.
+    ["@constructor"] = { fg = c.magenta }, -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.
+    ["@variable.parameter"] = { fg = c.magenta }, -- For parameters of a function.
     ["@variable.parameter.builtin"] = { fg = c.yellow300 }, -- For builtin parameters of a function, e.g. "..." or Smali's p[1-99]
 
     --- Keywords
